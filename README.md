@@ -9,20 +9,20 @@ To support this calculation the package also contains a dataset of the vapour pr
 
 ## Install this package
 
-To install this package on your system, I suggest: 
+To install this package on your system, you can use `remotes::install_github()`:
 
 ```
-install.packages("devtools")
-devtools::install_github("chepec/water")
+install.packages("remotes")
+remotes::install_github("chepec/O2solubilitywater")
 ```
 
 
 ## Develop this package
 
-To check out the source code (perhaps to work on the code and contribute back ;-), you should `git clone`. 
+To check out the source code of this repository, `git clone`:
 
 ```
-git clone https://github.com/chepec/water.git
+git clone https://github.com/chepec/O2solubilitywater.git
 ```
 
 

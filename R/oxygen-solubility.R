@@ -81,13 +81,13 @@ OxygenSolubilityWater <- function(temperature) {
                  grampercm3 =
                     (conv.factor * oxygen.dryair / 760) * alpha *
                     # keep in mind that VapourPressureWater() returns values in kilopascal
-                    (760 - common::pascal2torr(1E3 * water::VapourPressureWater(temperature))),
+                    (760 - common::pascal2torr(1E3 * O2solubilitywater::VapourPressureWater(temperature))),
                  mgperlitre =
                     1E6 * (conv.factor * oxygen.dryair / 760) * alpha *
-                    (760 - common::pascal2torr(1E3 * water::VapourPressureWater(temperature))),
+                    (760 - common::pascal2torr(1E3 * O2solubilitywater::VapourPressureWater(temperature))),
                  molperlitre =
                     1E3 * (conv.factor * oxygen.dryair / 760) * alpha *
-                    (760 - common::pascal2torr(1E3 * water::VapourPressureWater(temperature))) /
+                    (760 - common::pascal2torr(1E3 * O2solubilitywater::VapourPressureWater(temperature))) /
                     (2 * oxygen.fw))
    # Number of O2 molecules per water molecule
    oxygen.solubility$permoleculewater <-

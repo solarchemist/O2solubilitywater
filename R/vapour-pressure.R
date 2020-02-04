@@ -2,7 +2,7 @@
 #'
 #' Vapour pressure of water as a function of temperature
 #' This function returns the vapour pressure of water at the given
-#' temperature(s) from the water::vapourwater dataset.
+#' temperature(s) from the O2solubilitywater::vapourwater dataset.
 #'
 #' @param temperature numeric vector, in degrees Celsius
 #'
@@ -15,7 +15,7 @@
 #' VapourPressureWater(c(20, 25, 45, 60))
 #' }
 VapourPressureWater <- function(temperature) {
-   data <- water::vapourwater
+   data <- O2solubilitywater::vapourwater
    # if T outside range in data, warn the user
    if (any(temperature < min(data$temperature)) | any(temperature > max(data$temperature))) {
       warning("At least one supplied temperature is outside the data range (",

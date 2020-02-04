@@ -15,7 +15,7 @@ vapour pressure of water, in kilopascal
 \description{
 Vapour pressure of water as a function of temperature
 This function returns the vapour pressure of water at the given
-temperature(s) from the water::vapourwater dataset.
+temperature(s) from the O2solubilitywater::vapourwater dataset.
 }
 \examples{
 \dontrun{
