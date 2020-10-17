@@ -13,7 +13,7 @@ To install this package on your system, you can use `remotes::install_github()`:
 
 ```
 install.packages("remotes")
-remotes::install_github("chepec/O2solubilitywater")
+remotes::install_github("solarchemist/O2solubilitywater")
 ```
 
 
@@ -22,7 +22,7 @@ remotes::install_github("chepec/O2solubilitywater")
 To check out the source code of this repository, `git clone`:
 
 ```
-git clone https://github.com/chepec/O2solubilitywater.git
+git clone https://github.com/solarchemist/O2solubilitywater.git
 ```
 
 
