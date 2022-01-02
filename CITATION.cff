@@ -1,0 +1,20 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.1.1
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+
+cff-version: 1.2.0
+message: 'To cite package "O2solubilitywater" in publications, please use the metadata from this file'
+type: dataset
+license: GPL-3.0-or-later
+title: 'Oxygen Solubility in Water'
+version: 0.2.1
+doi: 10.5281/zenodo.3636202
+abstract: Calculates oxygen solubility in water at any temperature between 0°C - 50°C
+  based on published empirical model (Hitchman, Measurement of Dissolved Oxygen, 1978),
+  and tabulated vapour pressure of water.
+authors:
+- family-names: Ahmed
+  given-names: Taha
+  email: taha@chepec.se
+  orcid: https://orcid.org/0000-0001-6717-0408

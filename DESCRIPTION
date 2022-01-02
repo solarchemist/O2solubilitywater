@@ -1,13 +1,13 @@
 Package: O2solubilitywater
 Title: Oxygen Solubility in Water
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: person("Taha", "Ahmed", email = "taha@chepec.se", role = c("aut", "cre"))
 Description: Calculates oxygen solubility in water at any temperature between 0C - 50C 
    based on published empirical model (Hitchman, Measurement of Dissolved Oxygen, 1978), 
    and tabulated vapour pressure of water.
 Depends: R (>= 3.4)
-License: GPL-3
+License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: common
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.1
